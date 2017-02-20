@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linv"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/but1">
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oval"
+        android:id="@+id/but1"
+        android:onClick="ovalClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/linv" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rect"
+        android:id="@+id/but2"
+        android:onClick="rectClick"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/but1" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Line"
+        android:id="@+id/but3"
+        android:onClick="lineClick"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/but2"
+        android:layout_toEndOf="@+id/but2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pen"
+        android:id="@+id/but4"
+        android:onClick="penClick"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/but3"
+        android:layout_toEndOf="@+id/but3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rub"
+        android:id="@+id/but5"
+        android:onClick="rubClick"
+        android:layout_marginLeft="3dp"
+        android:layout_alignTop="@+id/but4"
+        android:layout_toEndOf="@+id/but4" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/but6"
+        android:onClick="clearClick"
+        android:layout_marginLeft="3dp"
+        android:layout_alignTop="@+id/but5"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

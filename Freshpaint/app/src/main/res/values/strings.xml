@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FreshPaint</string>
+    <string name="refresher">Refresh</string>
+    <string name="stuff">BLA</string>
+    <string name="stuff2">GRON</string>
+    <string name="stuff3">ROD</string>
+    <string name="title_activity_listed">Listed</string>
+    <string name="title_activity_show">Show</string>
+</resources>
